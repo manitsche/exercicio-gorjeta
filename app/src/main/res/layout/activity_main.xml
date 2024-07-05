@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/titulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Exercício Gorjeta"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/espacamento1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Informe o valor total da conta:"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText" />
+
+        <EditText
+            android:id="@+id/editText_valor_da_conta"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:hint="Valor total da conta"
+            android:inputType="number"
+            android:textColorHint="@color/black"
+            tools:ignore="Autofill,HardcodedText" />
+
+        <TextView
+            android:id="@+id/espacamento2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Quantas passoas vão dividir a conta?"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText" />
+
+        <EditText
+            android:id="@+id/editText_numero_de_pessoas"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:hint="Número de passoas"
+            android:inputType="number"
+            android:textColorHint="@color/black"
+            tools:ignore="Autofill,HardcodedText" />
+
+        <TextView
+            android:id="@+id/espacamento3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Porcentagem da gorj eta:"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText" />
+
+        <EditText
+            android:id="@+id/editTex_porcentagem_da_gorjeta"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:hint="Porcentagem da gorjeta"
+            android:inputType="number"
+            android:textColorHint="@color/black"
+            tools:ignore="Autofill,HardcodedText" />
+
+        <TextView
+            android:id="@+id/espacamento4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/button_calcular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="Calcular"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+</ScrollView>
